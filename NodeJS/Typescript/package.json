@@ -1,0 +1,17 @@
+{
+  "name": "title",
+  "version": "{{ version }}",
+  "description": "{{ description }}",
+  "main": "dist/index.js",
+  "repository": "{{ repository }}",
+  "author": "{{ author }}",
+  "license": "{{ license }}",
+  "scripts": {
+    "build": "tsc",
+    "start": "yarn build && node ."
+  },
+  "devDependencies": {
+    "tsc": "^2.0.4",
+    "typescript": "^5.6.2"
+  }
+}

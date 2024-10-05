@@ -1,0 +1,14 @@
+[display]
+name = "NodeJS"
+version = "1.0.0"
+author = "sasquatchdev"
+
+[[variant]]
+name = "NodeJS + Javascript"
+files = ["Common", "Javascript"]
+input = ["common.lua"]
+
+[[variant]]
+name = "NodeJS + Typescript"
+files = ["Common", "Typescript"]
+input = ["common.lua", "typescript.lua"]

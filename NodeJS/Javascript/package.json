@@ -1,0 +1,9 @@
+{
+  "name": "title",
+  "version": "{{ version }}",
+  "description": "{{ description }}",
+  "main": "src/index.js",
+  "repository": "{{ repository }}",
+  "author": "{{ author }}",
+  "license": "{{ license }}"
+}
