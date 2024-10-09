@@ -5,7 +5,8 @@
     "strict": true,
     "sourceMap": true,
     "removeComments": true,
-    "outDir": "dist"
+    "outDir": "dist",
+    "target": "{{ tsconfig.target }}"
   },
   "include": ["src/**/*"]
 }
